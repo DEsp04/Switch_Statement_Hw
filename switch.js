@@ -22,5 +22,7 @@ switch (restItem) {
     price = "$15";
     console.log(`${restItem}; ${price}`);
     break;
-  default
+  default:
+    console.log("Option not available");
+    break;
 }
